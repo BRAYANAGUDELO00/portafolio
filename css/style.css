@@ -1,0 +1,112 @@
+body{
+    font-size: 1.2rem;
+    background: linear-gradient(90deg, rgb(6, 1, 99) 1%, rgb(57, 57, 235) 44%, rgb(34, 95, 107) 100%);
+  }
+  
+.navbar-nav {
+    margin-left: 0;
+    padding-top: 0px;
+  }
+.nav-link {
+    color: #0c1825; /* Cambia este color al que desees */
+    text-decoration: none; /* Opcional: elimina el subrayado */
+}  
+
+.fondo-nav{
+    background: #284272 !important;
+}
+
+#inicio{
+    background-image: url(../img/en-vuelo);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
+}
+  
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    color: #fff;
+    padding-top: 0px;
+}
+
+.jumbotron{
+  width: 100%;
+  height: 250px;
+  background: rgba(0,0,0,0.7);
+  color: yellow;
+  padding-top: 60px;
+}
+
+img {
+  max-width: 250px;
+  height: auto; 
+}
+
+  
+  #llamado-accion{
+    background: rgb(136,0,255);
+    background: linear-gradient(63deg, rgba(136,0,255,1) 7%, rgba(20,0,36,1) 56%, rgba(108,9,121,1) 94%);
+  }
+  
+  #footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(6, 1, 99) 1%, rgb(57, 57, 235) 44%, rgb(34, 95, 107) 100%);
+  }
+
+  .intro-block {
+    border: 2px solid #ddd; /* Borde para encerrar el bloque */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #111010; /* Color de fondo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    color: #797878;
+  }
+
+  .card img {
+    width: 300px;
+    height: auto;
+    align-items: center;
+  }
+
+.cursor { 
+  position: absolute; 
+  width: 15px; 
+  height: 15px; 
+  background-color: #353232; 
+  border-radius: 50%; 
+  pointer-events: none; 
+  transition: width 0.2s ease, height 0.2s ease, transform 0.2s ease; 
+  z-index: 1000;
+}
+a:hover ~ .cursor, button:hover ~ .cursor { 
+  width: 35px; 
+  height: 35px; 
+  background-color: #ff5722; 
+  transform: scale(1.2); 
+}
+
+.chat-button {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+  right: 20px; /* Ajusta la distancia desde el lado derecho */
+  z-index: 1000; /* Asegura que esté siempre por encima de otros elementos */
+  border-radius: 50%; /* Hace que sea circular */
+  width: 60px;
+  height: 60px;
+  background-color: #007bff; /* Color del botón */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  font-size: 24px;
+}
+.chat-button:hover {
+  background-color: #0056b3; /* Color al pasar el cursor */
+}
+
+
+
